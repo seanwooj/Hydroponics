@@ -1,11 +1,12 @@
 
+
 # Author
 Sean Kim
 @seanwooj
 [Wooj Design](http://wooj.design)
 
 # Version
-1.1
+1.1.1
 
 #### Description
 This is a small project I've been tinkering at on and off for a few months. Now that many are quarantined at home, it seems like a good time to help people get into indoor gardening.
@@ -33,7 +34,7 @@ Below is a list of tools, parts and materials you should need to complete this p
 
 #### 2. Printing
 ##### 2.1 Print Settings
-If you use PrusaSlicer (which I recommend, even if you don't have a Prusa printer), you can just open the `Can Planter 1.1 - Prusaslicer` file in the Gcode folder. This is the easiest way to get all of the settings that I use.
+If you use PrusaSlicer (which I recommend, even if you don't have a Prusa printer), you can just open the `Can Planter 1.1 - Prusaslicer` file in the Gcode folder. This is the easiest way to get all of the settings that I use. **It'll look a little weird because there will be some random cylinders placed in the file, but those are just slicer modifiers, and won't be printed.**
 
 The included STLs may be scaled incorrectly. They were designed in imperial units (lol, sorry), so you may need to scale them up `2540%` in your slicer.
 
@@ -58,3 +59,8 @@ The important thing is that you don't overfill your can such that the top of the
 
 #### 3. FAQ
 This will be filled out as people ask questions :)
+
+
+## Changelog
+- 1.1.1 - Removed some extraneous models from the prusaslicer base file.
+- 1.1 - Updated to include a stl model with the open bottom, as well as including the prusaslicer base file
